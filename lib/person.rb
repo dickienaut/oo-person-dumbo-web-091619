@@ -69,6 +69,8 @@ class Person
     case topic
       when "politics"
         return "blah blah partisan blah lobbyist"
+      when "weather"
+        return "blah blah sun blah rain"
       else
         return "blah blah blah blah blah"
     end
