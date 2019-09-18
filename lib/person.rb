@@ -9,6 +9,9 @@ class Person
     @happiness = 8
   end
     
+  def
+  
+  
   
 end
 
