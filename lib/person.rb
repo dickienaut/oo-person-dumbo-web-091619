@@ -6,7 +6,7 @@ class Person
     @name = name
     @bank_account = 25
     @hygeine_points = 8
-    @happiness_points = 8
+    @happiness = 8
   end
     
   
