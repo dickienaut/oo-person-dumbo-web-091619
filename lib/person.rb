@@ -41,7 +41,8 @@ class Person
     @hygiene > 7 ? true : false
   end
   
-  
+  def get_paid(salary)
+    @bank_account += salary.to_i
   
   
   
