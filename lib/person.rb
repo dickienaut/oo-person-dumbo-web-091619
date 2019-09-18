@@ -74,7 +74,6 @@ class Person
       when "weather"
         self.happiness=(self.happiness() + 1)
         person.happiness=(person.happiness() + 1)
-
         return "blah blah sun blah rain"
       else
         return "blah blah blah blah blah"
