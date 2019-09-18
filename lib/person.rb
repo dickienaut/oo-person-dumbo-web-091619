@@ -55,6 +55,7 @@ class Person
   
   def work_out
     self.hygiene=(self.hygiene() - 3)
+  end
 end
 
 
