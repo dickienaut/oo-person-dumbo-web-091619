@@ -33,6 +33,9 @@ class Person
   
   def happy?
     
+    
+    # test-expression ? if-true-expression : if-false-expression
+
   end
   
 end
