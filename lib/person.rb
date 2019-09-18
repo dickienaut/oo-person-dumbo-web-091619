@@ -68,7 +68,7 @@ class Person
   def start_conversation(person, topic)
     case topic
       when "politics"
-      
+        return "blah blah partisan blah lobbyist"
       else
         return "blah blah blah blah blah"
     end
