@@ -23,11 +23,11 @@ class Person
     
   def hygiene=(new_hygiene_points)
     if new_hygiene_points > 10
-      @hygeine = 10
+      @hygiene = 10
     elsif new_hygiene_points < 0
-      @hygeine = 0
+      @hygiene = 0
     else
-      @hygeine = new_hygiene_points
+      @hygiene = new_hygiene_points
     end
   end
   
