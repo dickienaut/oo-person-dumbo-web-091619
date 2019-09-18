@@ -47,13 +47,14 @@ class Person
   end
   
   def take_bath
-    self.hygiene=(4 + self.hygiene())
+    self.hygiene=(self.hygiene() + 4)
   
   
     return '♪ Rub-a-dub just relaxing in the tub ♫'
   end
   
-  
+  def work_out
+    self.hygiene=(self.hygiene() - 3)
 end
 
 
