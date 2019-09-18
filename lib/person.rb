@@ -56,6 +56,9 @@ class Person
   def work_out
     self.hygiene=(self.hygiene() - 3)
     self.happiness=(self.happiness() + 2)
+    
+    
+    '♪ another one bites the dust ♫'
   end
 end
 
