@@ -29,6 +29,7 @@ class Person
     else
       @hygeine = new_hygeine_points
     end
+  end
   
 end
 
