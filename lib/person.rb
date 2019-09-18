@@ -43,6 +43,7 @@ class Person
   
   def get_paid(salary)
     @bank_account += salary.to_i
+    puts
   
   
   
