@@ -32,8 +32,7 @@ class Person
   end
   
   def happy?
-    
-    
+    @happiness > 7 ? true : false
     # test-expression ? if-true-expression : if-false-expression
 
   end
