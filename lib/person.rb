@@ -70,7 +70,7 @@ class Person
       when "politics"
       
       else
-        "blah blah blah blah blah"
+        return "blah blah blah blah blah"
     end
   end
 end
