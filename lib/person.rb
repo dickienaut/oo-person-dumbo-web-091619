@@ -9,7 +9,9 @@ class Person
     @happiness = 8
   end
     
-  def happiness
+  def happiness=(new_happiness_level)
+    @happiness = new_happiness_level
+  end
   
   
   
