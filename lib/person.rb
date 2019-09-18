@@ -69,6 +69,8 @@ class Person
     case topic
       when "politics"
       
+      else
+        "blah blah blah blah blah"
     end
   end
 end
