@@ -39,7 +39,7 @@ class Person
   
   def clean?
     @hygiene > 7 ? true : false
-  
+  end
   
   
   
