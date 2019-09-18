@@ -18,6 +18,7 @@ class Person
       @happiness = 0
     else
       @happiness = new_happiness_points
+    end
   end
   
   
