@@ -10,8 +10,6 @@ class Person
   end
     
   def happiness=(new_happiness_points)
-    @happiness = new_happiness_points
-    
     if new_happiness_points > 10
       @happiness = 10
     elsif new_happiness_points < 0
@@ -19,9 +17,9 @@ class Person
     else
       @happiness = new_happiness_points
     end
+    # maybe optimize with hygeine method
   end
-  
-  
+
   
 end
 
