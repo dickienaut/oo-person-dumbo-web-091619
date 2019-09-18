@@ -1,5 +1,5 @@
 class Person
-  attr_reader :name, :hygeine_points, :happiness_points
+  attr_reader :name, :hygeine_points, :happiness
   attr_accessor :bank_account
   
   def initialize(name)
