@@ -72,7 +72,6 @@ class Person
         return "blah blah partisan blah lobbyist"
       when "weather"
         self.happiness=(self.happiness() + 1)
-
         return "blah blah sun blah rain"
       else
         return "blah blah blah blah blah"
